@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1307</width>
+    <height>827</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Hub Allocation U.I.</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Icons/icons8-hub-64.png</normaloff>Icons/icons8-hub-64.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_8">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QToolButton" name="toolButton">
+              <property name="minimumSize">
+               <size>
+                <width>40</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>40</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>Icons/icons8-opened-folder-48.png</normaloff>Icons/icons8-opened-folder-48.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_5">
+              <item>
+               <widget class="QGroupBox" name="groupBox">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>70</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="title">
+                 <string>Initial Solution</string>
+                </property>
+                <layout class="QGridLayout" name="gridLayout">
+                 <item row="0" column="0">
+                  <layout class="QHBoxLayout" name="horizontalLayout">
+                   <item>
+                    <widget class="QToolButton" name="toolButton_I1">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-save-48.png</normaloff>Icons/icons8-save-48.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_I2">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-export-48.png</normaloff>Icons/icons8-export-48.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_I3">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-erase-48.png</normaloff>Icons/icons8-erase-48.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_I4">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-return-48.png</normaloff>Icons/icons8-return-48.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_I5">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-forward-arrow-48.png</normaloff>Icons/icons8-forward-arrow-48.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QGroupBox" name="groupBox_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>70</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="title">
+                 <string>Final Solution</string>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_2">
+                 <item row="0" column="0">
+                  <layout class="QHBoxLayout" name="horizontalLayout_2">
+                   <item>
+                    <widget class="QToolButton" name="toolButton_F1">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-save-48.png</normaloff>Icons/icons8-save-48.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_F2">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-export-48.png</normaloff>Icons/icons8-export-48.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_F3">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-erase-48.png</normaloff>Icons/icons8-erase-48.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_F4">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-return-48.png</normaloff>Icons/icons8-return-48.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_F5">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-forward-arrow-48.png</normaloff>Icons/icons8-forward-arrow-48.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QGroupBox" name="groupBox_3">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>70</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="title">
+                 <string>Clustering</string>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_3">
+                 <item row="0" column="0">
+                  <layout class="QHBoxLayout" name="horizontalLayout_3">
+                   <item>
+                    <widget class="QToolButton" name="toolButton_C1">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-cluster-64.png</normaloff>Icons/icons8-cluster-64.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_C2">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-affinity-publisher-48.png</normaloff>Icons/icons8-affinity-publisher-48.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_C3">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-metamorphose-100.png</normaloff>Icons/icons8-metamorphose-100.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_C4">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-audio-wave2-100.png</normaloff>Icons/icons8-audio-wave2-100.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_C5">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-hierarchical-structure-64.png</normaloff>Icons/icons8-hierarchical-structure-64.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_C6">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-detikberitaid-48.png</normaloff>Icons/icons8-detikberitaid-48.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QGroupBox" name="groupBox_4">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>70</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="title">
+                 <string>Heuristics</string>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_4">
+                 <item row="0" column="0">
+                  <layout class="QHBoxLayout" name="horizontalLayout_4">
+                   <item>
+                    <widget class="QToolButton" name="toolButton_H1">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-h-32.png</normaloff>Icons/icons8-h-32.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_H2">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset>
+                       <normaloff>Icons/icons8-a-32.png</normaloff>Icons/icons8-a-32.png</iconset>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QGroupBox" name="groupBox_5">
+              <property name="minimumSize">
+               <size>
+                <width>500</width>
+                <height>350</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>500</width>
+                <height>350</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+                <underline>true</underline>
+               </font>
+              </property>
+              <property name="title">
+               <string>Initial Solution</string>
+              </property>
+              <widget class="QLabel" name="label_In">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>20</y>
+                 <width>431</width>
+                 <height>261</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="groupBox_6">
+              <property name="minimumSize">
+               <size>
+                <width>500</width>
+                <height>350</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>500</width>
+                <height>350</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+                <underline>true</underline>
+               </font>
+              </property>
+              <property name="title">
+               <string>Final Solution</string>
+              </property>
+              <widget class="QLabel" name="label__Fin">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>20</y>
+                 <width>431</width>
+                 <height>261</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>10</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>10</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Information Panel</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="listWidget_Info"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <property name="sizeConstraint">
+             <enum>QLayout::SetDefaultConstraint</enum>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="minimumSize">
+               <size>
+                <width>250</width>
+                <height>10</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>10</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Hubs</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QListView" name="listView_Hubs">
+              <property name="minimumSize">
+               <size>
+                <width>250</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>40</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <property name="sizeConstraint">
+             <enum>QLayout::SetDefaultConstraint</enum>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="minimumSize">
+               <size>
+                <width>250</width>
+                <height>10</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>10</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Nodes</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QListView" name="listView_Nodes">
+              <property name="minimumSize">
+               <size>
+                <width>250</width>
+                <height>90</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>150</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButton_Run">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>250</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>RUN</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>10</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>10</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Results</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="listWidget_Result"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1307</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <widget class="QMenu" name="menu_Export_As">
+     <property name="title">
+      <string>&amp;Export As</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>Icons/icons8-export-48.png</normaloff>Icons/icons8-export-48.png</iconset>
+     </property>
+     <addaction name="action_Initial_Solution"/>
+     <addaction name="action_Final_Solution"/>
+    </widget>
+    <addaction name="action_oPEN_dATA"/>
+    <addaction name="separator"/>
+    <addaction name="action_Save_Initial_Solution"/>
+    <addaction name="action_Save_Final_Solution"/>
+    <addaction name="separator"/>
+    <addaction name="menu_Export_As"/>
+    <addaction name="separator"/>
+    <addaction name="action_Exit"/>
+   </widget>
+   <widget class="QMenu" name="menu_Edit">
+    <property name="title">
+     <string>&amp;Edit</string>
+    </property>
+    <widget class="QMenu" name="menu_Clear">
+     <property name="title">
+      <string>&amp;Clear</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>Icons/icons8-erase-48.png</normaloff>Icons/icons8-erase-48.png</iconset>
+     </property>
+     <addaction name="action_Initial_Solution_2"/>
+     <addaction name="action_Final_Solution_2"/>
+    </widget>
+    <widget class="QMenu" name="menu_Undo">
+     <property name="title">
+      <string>&amp;Undo</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>Icons/icons8-return-48.png</normaloff>Icons/icons8-return-48.png</iconset>
+     </property>
+     <addaction name="action_Initial_Solution_3"/>
+     <addaction name="action_Final_Solution_3"/>
+    </widget>
+    <widget class="QMenu" name="menu_Redo">
+     <property name="title">
+      <string>&amp;Redo</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>Icons/icons8-forward-arrow-48.png</normaloff>Icons/icons8-forward-arrow-48.png</iconset>
+     </property>
+     <addaction name="action_Initial_Solution_4"/>
+     <addaction name="action_Final_Solution_4"/>
+    </widget>
+    <addaction name="menu_Clear"/>
+    <addaction name="separator"/>
+    <addaction name="menu_Undo"/>
+    <addaction name="menu_Redo"/>
+   </widget>
+   <widget class="QMenu" name="menuClustering">
+    <property name="title">
+     <string>Clustering</string>
+    </property>
+    <addaction name="action_K_Means"/>
+    <addaction name="action_Affinitiy_Propagation"/>
+    <addaction name="action_Means_Shift"/>
+    <addaction name="action_Spectral_Clustering"/>
+    <addaction name="action_Hierarchical_Clustering"/>
+    <addaction name="action_DBSCAN"/>
+   </widget>
+   <widget class="QMenu" name="menu_Heuristics">
+    <property name="title">
+     <string>&amp;Heuristics</string>
+    </property>
+    <addaction name="action_Hill_Climbing"/>
+    <addaction name="action_Simulated_Anneling"/>
+   </widget>
+   <addaction name="menu_File"/>
+   <addaction name="menu_Edit"/>
+   <addaction name="menuClustering"/>
+   <addaction name="menu_Heuristics"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_oPEN_dATA">
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-opened-folder-48.png</normaloff>Icons/icons8-opened-folder-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Open Data</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="action_Save_Initial_Solution">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-save-48.png</normaloff>Icons/icons8-save-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Save Initial Solution</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="action_Save_Final_Solution">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-save-48.png</normaloff>Icons/icons8-save-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Save Final Solution</string>
+   </property>
+  </action>
+  <action name="action_Exit">
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-close-48.png</normaloff>Icons/icons8-close-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+F4</string>
+   </property>
+  </action>
+  <action name="action_Initial_Solution">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-incoming-data-48.png</normaloff>Icons/icons8-incoming-data-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Initial Solution</string>
+   </property>
+  </action>
+  <action name="action_Final_Solution">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-outgoing-data-48.png</normaloff>Icons/icons8-outgoing-data-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Final Solution</string>
+   </property>
+  </action>
+  <action name="action_Initial_Solution_2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-incoming-data-48.png</normaloff>Icons/icons8-incoming-data-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Initial Solution</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
+  </action>
+  <action name="action_Initial_Solution_3">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-incoming-data-48.png</normaloff>Icons/icons8-incoming-data-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Initial Solution</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Left</string>
+   </property>
+  </action>
+  <action name="action_Initial_Solution_4">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-incoming-data-48.png</normaloff>Icons/icons8-incoming-data-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Initial Solution</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Right</string>
+   </property>
+  </action>
+  <action name="action_Final_Solution_2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-outgoing-data-48.png</normaloff>Icons/icons8-outgoing-data-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Final Solution</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+L</string>
+   </property>
+  </action>
+  <action name="action_Final_Solution_3">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-outgoing-data-48.png</normaloff>Icons/icons8-outgoing-data-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Final Solution</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+Left</string>
+   </property>
+  </action>
+  <action name="action_Final_Solution_4">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-outgoing-data-48.png</normaloff>Icons/icons8-outgoing-data-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Final Solution</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+Right</string>
+   </property>
+  </action>
+  <action name="action_K_Means">
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-cluster-64.png</normaloff>Icons/icons8-cluster-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;K-Means</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl++</string>
+   </property>
+  </action>
+  <action name="action_Affinitiy_Propagation">
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-affinity-publisher-48.png</normaloff>Icons/icons8-affinity-publisher-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Affinitiy Propagation</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+-</string>
+   </property>
+  </action>
+  <action name="action_Means_Shift">
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-metamorphose-100.png</normaloff>Icons/icons8-metamorphose-100.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Means-Shift</string>
+   </property>
+  </action>
+  <action name="action_Spectral_Clustering">
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-audio-wave2-100.png</normaloff>Icons/icons8-audio-wave2-100.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Spectral Clustering</string>
+   </property>
+  </action>
+  <action name="action_Hierarchical_Clustering">
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-hierarchical-structure-64.png</normaloff>Icons/icons8-hierarchical-structure-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Hierarchical Clustering</string>
+   </property>
+  </action>
+  <action name="action_DBSCAN">
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-detikberitaid-48.png</normaloff>Icons/icons8-detikberitaid-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;DBSCAN</string>
+   </property>
+  </action>
+  <action name="action_Hill_Climbing">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-h-32.png</normaloff>Icons/icons8-h-32.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Hill Climbing</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+S</string>
+   </property>
+  </action>
+  <action name="action_Simulated_Anneling">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/icons8-a-32.png</normaloff>Icons/icons8-a-32.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Simulated Annealing</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
